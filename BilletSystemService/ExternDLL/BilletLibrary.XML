@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLibrary.Bil.#ctor(System.String,System.String,System.DateTime,System.Boolean)">
+            <summary>
+            I Følgende Constructor kigges der nærmere på, hvilken bro, der køres på og derved kan prisen findes
+            </summary>
+            <param name="bro"></param>
+            <param name="nummerPlade"></param>
+            <param name="dato"></param>
+            <param name="broBizz"></param>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Pris() Udregner prisen ud fra, hvilken bro, der køres på, samt om der er rabat ud fra om det sker på en lørdag eller søndag
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            Køretøj() bruges til at sætte broen, som skal være enten "Storebælt" eller "Øresund", ellers kastes en exception ved en bro, der ikke eksisterer i systemet
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BilletLibrary.Køretøjer.Bro">
+            <summary>
+            Auto Properties
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.#ctor(System.String,System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Constructor for køretøjer
+            </summary>
+            <param name="bro"></param>
+            <param name="nummerPlade"></param>
+            <param name="dato"></param>
+            <param name="broBizz"></param>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.Køretøj">
+            <summary>
+            Abstrakte Metoder
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.Pris">
+            <summary>
+            Pris() Udregner prisen ud fra, om broen her er sat til "Storebælt"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String,System.String,System.DateTime,System.Boolean)">
+            <summary>
+            I Følgende Constructor kigges der nærmere på, hvilken bro, der køres på og derved kan prisen findes
+            </summary>
+            <param name="bro"></param>
+            <param name="nummerPlade"></param>
+            <param name="dato"></param>
+            <param name="broBizz"></param>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
+            <summary>
+            Køretøj() bruges til at sætte broen, som skal være enten "Storebælt" eller "Øresund", ellers kastes en exception ved en bro, der ikke eksisterer i systemet
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
